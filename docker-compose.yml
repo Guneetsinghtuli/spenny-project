@@ -10,6 +10,7 @@ services:
       - spenny
   spenny:
     build: .
+    image: guneetsingh02/spenny
     environment:
       - PORT=3000
     depends_on:
